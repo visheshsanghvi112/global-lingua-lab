@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { UserProvider, useUser } from "./context/UserContext";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Index from "./pages/Index";
 import Onboarding from "./pages/Onboarding";
 import Dashboard from "./pages/Dashboard";
@@ -58,6 +59,7 @@ const App = () => (
             <main className="flex-grow">
               <AppRoutes />
             </main>
+            <Footer />
           </div>
         </BrowserRouter>
       </UserProvider>
