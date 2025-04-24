@@ -1,5 +1,5 @@
 
-# Welcome to your Lovable project
+# Welcome to TS project
 
 Created by Vishesh Sanghvi - https://www.visheshsanghvi.me/
 
